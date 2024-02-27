@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css file -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    
+    <!-- bootstrap-icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <!-- title -->
+    <title>Landing</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+    <!-- container-class-->
+    <div class="container">
+  
+      <!-- nav-bar -->
+      <a class="navbar-brand pt-0 " href="#"><img src="design-screen-assets/Logo.svg" alt="Logo"></a>
+      <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <!-- nav-items -->
+
+      <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0" id="menu">
+        <li class="nav-item pe-4 ">
+          <a class="nav-link" id="homeElement" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="nav-link " id="serviceElement" href="#">Service</a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="nav-link" href="#" id="Feature">Feature<img src="design-screen-assets/down-arrow.png" class="down-arrow" id="arrow-rotate">
+            <ul class="list-unstyled list-items">
+              <li class="nav-item">Demo 1</li>
+              <li class="nav-item">Demo 2</li>
+              <li class="nav-item">Demo 3</li>
+              <li class="nav-item">Demo 4</li>
+             </ul>
+            <a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="nav-link " id="productElement" href="#">Product</a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="nav-link " id="testElement" href="#">Testimonal</a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="nav-link " id="faqElement" href="#">FAQ</a>
+        </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn login-btn" type="button" id="loginButton">Login</button>
+          <a><button type="button" class="btn btn-success ms-3" id="signButton">Sign up</button></a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- carousel -->
+
+  <div class="container-fluid banner bg-body-tertiary mb-2">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" id="rounded-button"
+            aria-current="true" aria-label="Slide 1"
+            style="border-radius: 100%; width: 10px; height: 10px; background-color: #4caf4f;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+            style="border-radius: 100%; width: 10px; height: 10px; background-color: #4caf4f;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+            style="border-radius: 100%; width: 10px; height: 10px; background-color: #4caf4f;"></button>
+        </div>
+  <!-- corousel slide1 -->
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm-10 col-lg-6 col-md-9">
+                <h1 class="banner-text display-4 ps-4">Lessons and insights <span class="time-span">from 8 years</span>
+                </h1>
+                <p class="ps-4 tagline" style="color: #7d7e7e;">Where to grow your business as a photographer: site or social media?</p>
+                <button class="register-btn ms-4 p-2 ps-4 pe-4">Register</button>
+              </div>
+              <div class="col-sm-2 col-lg-6 col-md-3">
+                <img src="design-screen-assets/banner-img1.svg" class="d-block w-100 bannerImage" height="350px" alt="banner-img">
+              </div>
+            </div>
+          </div>
+
+  <!-- corousel slide2 -->
+
+          <div class="carousel-inner">
+            <div class="carousel-item ">
+              <div class="row">
+                <div class="col-sm-10 col-lg-6 col-md-9">
+                  <h1 class="banner-text display-4 ps-4">Lessons and insights <span class="time-span">from 8 years</span>
+                  </h1>
+                  <p class="ps-4 tagline" style="color: #7d7e7e;">Where to grow your business as a photographer: site or social media?</p>
+                  <button class="register-btn ms-4 p-2 ps-4 pe-4">Register</button>
+                </div>
+                <div class="col-sm-2 col-lg-6 col-md-3">
+                  <img src="design-screen-assets/banner-img1.svg" class="d-block w-100 bannerImage" height="350px" alt="banner-img">
+                </div>
+              </div>
+            </div>
+
+  <!-- corousel slide3 -->
+
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-10 col-lg-6 col-md-9">
+                    <h1 class="banner-text display-4 ps-4">Lessons and insights <span class="time-span">from 8 years</span>
+                    </h1>
+                    <p class="ps-4 tagline" style="color: #7d7e7e;">Where to grow your business as a photographer: site or social media?</p>
+                    <button class="register-btn ms-4 p-2 ps-4 pe-4">Register</button>
+                  </div>
+                  <div class="col-sm-2 col-lg-6 col-md-3">
+                    <img src="design-screen-assets/banner-img1.svg" class="d-block w-100 bannerImage" height="350px" alt="banner-img">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Our clients -->
+
+  <header class="container  mb-5 mt-5">
+    <h2 class="ourClients" style="text-align: center;color: #4d4d4d;">Our Clients</h2>
+    <p class="working" style="text-align: center; color: #898a8b;">we have been working with some fortune 500+ clients
+    </p>
+    <div class="row text-center" mt-5 pt-5>
+      <div class="col-sm p-3"><img src="design-screen-assets/client-logo1.png" alt="client-logo1"></div>
+      <div class="col-sm p-3"><img src="design-screen-assets/client-logo2.png" alt="client-logo2"></div>
+      <div class="col-sm p-3"><img src="design-screen-assets/client-logo3.png" alt="client-logo3"></div>
+      <div class="col-sm p-3"><img src="design-screen-assets/client-logo4.png" alt="client-logo4"></div>
+      <div class="col-sm p-3"><img src="design-screen-assets/client-logo5.png" alt="client-logo5"></div>
+      <div class="col-sm p-3"><img src="design-screen-assets/client-logo6.png" alt="client-logo6"></div>
+      <div class="col-sm p-3"><img src="design-screen-assets/client-logo7.png" alt="client-logo7"></div>
+    </div>
+  </header>
+
+  <!-- community -->
+
+  <section class="container mb-3">
+    <h2 style="text-align: center;"style="color: #4d4d4d;">Manage your entire community</h2>
+    <h2 style="text-align: center;"style="color: #4d4d4d;">in a single system</h2>
+    <p style="text-align: center;color: #898a8b;">Who is nexcent suitable for?</p>
+    <div class="row">
+      <div class="col-md p-3">
+        <div class="shadow card" style="width: 300px;">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <img src="design-screen-assets/Membership Organisations.svg" alt="Membership">
+            </div>
+            <h3 class="card-title mb-3 fw-bold">
+              Membership <br>Organisations
+            </h3>
+            <p class="card-text text-secondary">
+              Our membership management software provides full automation of membership renewals and payments
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md p-3">
+        <div class="shadow card" style="width: 300px;">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <img src="design-screen-assets/National Associations.svg" alt="associations">
+            </div>
+            <h3 class="card-title mb-3 fw-bold">
+              National<br>Associations
+            </h3>
+            <p class="card-text text-secondary">
+              Our membership management software provides full automation of membership renewals and payments
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md p-3">
+        <div class="shadow card" style="width: 300px;">
+          <div class="card-body text-center ">
+            <div class="h1 mb-3">
+              <img src="design-screen-assets/Clubs And Groups.svg" alt="clubs-groups">
+            </div>
+            <h3 class="card-title mb-3 fw-bold">
+              Clubs And<br>Groups
+            </h3>
+            <p class="card-text text-secondary">
+              Our membership management software provides full automation of membership renewals and payments
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Pixelgrade -->
+
+  <section class="container ">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 p-3  spending">
+        <img src="design-screen-assets/spending-info.svg" class="spending-img" alt="spending-info">
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 p-5 " style="text-align: left;">
+        <h2 class="mt-1" style="color: #4d4d4d;">The unseen of spending three</h2>
+        <h2 style="color: #4d4d4d;">years at Pixelgrade</h2>
+        <p class=" mb-1 text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa architecto officiis neque
+          quos expedita natus, nemo aliquid rem laboriosam eaque iure voluptate inventore minus quod cupiditate beatae
+          alias omnis non.</p>
+        <button class="btn btn-success  mt-4" type="button">Learn more</button>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid mb-4 bg-body-tertiary" >
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col mt-5 ms-4">
+          <h3 class="ms-4 mt-2 mb-0 ">Helping a local</h3>
+          <h3 class="ms-4 mt-0 mb-0" style="color: #4caf4f;">business reinvent itself</h3>
+          <p class="ms-4 mt-2 mb-5 pb-4" style="font-size: 12.5px;">we reached here with our hardwork and dedication</p>
+        </div>
+        <div class="col-sm-6">
+          <div class="row row-cols-2">
+            <div class="col mt-5">
+              <table>
+                <tbody>
+                  <tr>
+                    <td rowspan="2"><img src="design-screen-assets/members.svg"></td>
+                    <td class="ps-3 fw-bold">2,245,341</td>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Members</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col mt-5">
+              <table>
+                <tbody>
+                  <tr>
+                    <td rowspan="2"><img src="design-screen-assets/Clubs.svg"></td>
+                    <td class="ps-3 fw-bold">46,328</td>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Clubs</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col mt-5">
+              <table>
+                <tbody>
+                  <tr>
+                    <td rowspan="2"><img src="design-screen-assets/Event Bookings.svg"></td>
+                    <td class="ps-3 fw-bold">828,426</td>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Event Bookings</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col mt-5 ">
+              <table>
+                <tbody>
+                  <tr>
+                    <td rowspan="2"><img src="design-screen-assets/payment.svg"></td>
+                    <td class="ps-3 fw-bold">1,926,426</td>
+                  </tr>
+                  <tr>
+                    <td class="ps-3">Payments</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- how to design -->
+
+  <section class="design container mb-5 ">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 design">
+        <img src="design-screen-assets/MicrosoftTeams-image (2).png" class="spending-img" alt="design-img">
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 p-5">
+        <h2 class="mt-1 " style="color: #4d4d4d;">How to design your footer like we did</h2>
+        <p class=" mb-1 text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa architecto officiis neque
+          quos expedita natus, nemo aliquid rem laboriosam eaque iure voluptate inventore minus quod cupiditate beatae
+          alias omnis non.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fugiat quos quo ipsum dolores.
+        </p>
+        <button class="btn btn-success  mt-4" type="button">Learn more</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid pt-2 mt-2 bg-body-tertiary">
+    <div class="row ms-5">
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <img src="design-screen-assets/banner-img4.png" alt="banner-3" class="tesla-image" style="height: 250px;">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-8 mt-3">
+        <p class=" design text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, nequ
+          optio eaque obcaecati, sit minima sed molestiae velit autem nam eius dignissimos dolores. Modi, rem?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore fugiat facere harum volu
+          debitis numquam officiis enim. Deleniti consequuntur iste nesciunt nihil eligendi recusandae laudant
+          dolores praesentium esse minima! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem ear
+          aut perferendis consequatur dolorem sunt ducimus nemo at ea cum nam quaerat! Itaque, facilis enim co
+          fugiat beatae quo.
+        </p>
+        <h3 style="color: #4caf4f;">Tim Smith</h3>
+        <p class="text-secondary">British Dragon Boat Racing Association</p>
+        <div class="row text-center pb-4">
+          <div class="col-sm-1 ps-4"><img src="design-screen-assets/client-logo1.png" style="height: 22px;"></div>
+          <div class="col-sm-1 ps-4"><img src="design-screen-assets/client-logo2.png" style="height: 22px;"></div>
+          <div class="col-sm-1 ps-4" ><img src="design-screen-assets/client-logo3.png" style="height: 22px;"></div>
+          <div class="col-sm-1 ps-4" ><img src="design-screen-assets/client-logo4.png" style="height: 22px;"></div>
+          <div class="col-sm-1 ps-4" ><img src="design-screen-assets/client-logo5.png" style="height: 22px;"></div>
+          <div class="col-sm-1 ps-4"><img src="design-screen-assets/client-logo6.png" style="height: 22px;"></div>
+          <div class="col-sm-4 "><a href="#" class="text-decoration-none" style="color: #4caf4f;">Meet all Customers
+              &#8594;</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- caring is the new marketing -->
+
+  <div class=" container mt-4 bt-5">
+    <h2 style="text-align: center; color: #4d4d4d;">Caring is the new marketing</h2>
+    <p class="mb-0" style="color: #898a8b;text-align: center;"> The Nexcent blog is the best place to read about the
+      latest member insights,</p>
+    <p class="mb-0" style="color: #898a8b;text-align: center;">trends and more.See who's joining the community,read
+      about how our community</p>
+    <p class="mb-0" style="color: #898a8b;text-align: center;">are increasing their membership income and lot's more.
+    </p>
+    <div class="row mt-5 bt-5">
+      <div class="col-sm-12 col-md-4"><img src="design-screen-assets/banner-img5.png" class="w-75" alt="banner-img5">
+        <div class="model container" id="model">
+          <div class="modelContent" id="modelContent">
+            <p class="mb-0 fw-bold pt-2" style="color: #898a8b;">Creating Streamlined</p>
+            <p class="mb-0 fw-bold" style="color: #898a8b;"> Safeguarding Processes with</p>
+            <p class="mb-0 fw-bold mb-2" style="color: #898a8b;">One Ren</p>
+            <a href="#" class="text-decoration-none text-center fw-bold" style="color: #4caf4f;">Readmore
+              &#8594;</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4"><img src="design-screen-assets/banner-img6.png" class="w-75" alt="banner-img6">
+        <div class="model container" id="model">
+          <div class="modelContent" id="modelContent">
+            <p class="mb-0 fw-bold pt-2" style="color: #898a8b;">What are You Safeguarding</p>
+            <p class="mb-0 fw-bold" style="color: #898a8b;"> Responsibilities how can</p>
+            <p class="mb-0 fw-bold mb-2" style="color: #898a8b;">To Manage Them?</p>
+            <a href="#" class="text-decoration-none text-center fw-bold" style="color: #4caf4f;">Readmore
+              &#8594;</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4"><img src="design-screen-assets/banner-img7.png" class="w-75" alt="banner-img7">
+        <div class="model container" id="model">
+          <div class="modelContent" id="modelContent">
+            <p class="mb-0 fw-bold pt-2" style="color: #898a8b;">Revamping the Membership</p>
+            <p class="mb-0 fw-bold" style="color: #898a8b;"> Model with Triahlon</p>
+            <p class="mb-0 fw-bold mb-2" style="color: #898a8b;">Australia</p>
+            <a href="#" class="text-decoration-none text-center fw-bold mt-3" style="color: #4caf4f;">Readmore
+              &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mb-0 pb-4 bg-body-tertiary">
+    <div class="container text-center pt-4">
+      <h1 class="mb-0 "style="color: #4d4d4d;">Pellentesque suscipit</h1>
+      <h1 class="mb-0"style="color: #4d4d4d;">fringilla libero eu.</h1>
+      <button class="btn btn-success mt-3" type="button">Get a Demo &#8594</button>
+    </div>
+  </div>
+  <!-- login popup -->
+    <div class="login-box" id="login-box">
+      <div class="login-content" id="login-content">
+        <div class="close" id="close">x</div><br>
+        <form>
+          <div class="logo-popup"><img src="design-screen-assets/Logo.svg" alt="logo"></div>
+          <br><input type="text" placeholder="username" class="username"><br>
+          <input type="text" placeholder="password" class="password">
+          <br><button type="submit" value="submit" class="register-btn">submit</button>
+        </form>
+      </div>
+    </div>
+
+
+
+
+<!-- footer -->
+
+  <div class="container-fluid"style="background-color: #263238;">
+  <div class="container pb-4" >
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 ">
+      <div class="col  mt-3">
+        <a href="#" class="d-flex align-items-center mb-2  text-decoration-none">
+          <img src="design-screen-assets/footer-img.png">
+        </a>
+        <p class=" mb-1 ms-4" style="font-size: 10px; color:#dee0e1;">Copyrights &copy; 2022 Nexcent ltd.</p>
+        <p class="mb-4 ms-4" style="font-size: 10px;color:#dee0e1;">All rights reserved</p>
+        <div class="ms-4">
+          <a class="btn btn-outline-light btn-floating border rounded-circle btn-sm m-0 p-2-2-2-2 " href="#"
+            role="button"><i class="bi bi-instagram" style="font-size: 13px;"></i></a>
+          <a class="btn btn-outline-light btn-floating border rounded-circle btn-sm m-0 p-2-2-2-2 " href="#"
+            role="button"><i class="bi bi-dribbble"></i></a>
+          <a class="btn btn-outline-light btn-floating border rounded-circle btn-sm m-0 p-2-2-2-2 " href="#"
+            role="button"><i class="bi bi-twitter"></i></a>
+          <a class="btn btn-outline-light btn-floating border rounded-circle btn-sm m-0 p-2-2-2-2 " href="#"
+            role="button"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col mt-5">
+      </div>
+      <div class="col mt-5 ">
+        <h5 style="color: #dee0e1; font-size: 15px;">Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 mt-1" style="color: #dee0e1;font-size: 11px">About us</li>
+          <li class="nav-item mb-2" style="color: #dee0e1;font-size: 11px">Blog</li>
+          <li class="nav-item mb-2" style="color: #dee0e1;font-size: 11px">Contact us</li>
+          <li class="nav-item mb-2"style="color: #dee0e1;font-size: 11px">Pricing</li>
+          <li class="nav-item mb-2" style="color: #dee0e1;font-size: 11px">Testimonials</li>
+        </ul>
+      </div>
+      <div class="col mt-5">
+        <h5 style="color: #dee0e1; font-size: 15px;">Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 mt-1" style="color: #dee0e1;font-size: 11px;">Helpcenter</li>
+          <li class="nav-item mb-2" style="color: #dee0e1;font-size: 11px">Terms of service</li>
+          <li class="nav-item mb-2" style="color: #dee0e1;font-size: 11px">Legal</li>
+          <li class="nav-item mb-2" style="color: #dee0e1;font-size: 11px">Privacy policy</li>
+          <li class="nav-item mb-2"style="color: #dee0e1;font-size: 11px">Status</li>
+        </ul>
+      </div>
+      <div class="col mt-5 ">
+        <h5 style="color: #dee0e1; font-size: 15px;">Stay up to date</h5>
+          <div class="input-group  flex-nowrap">
+            <input type="text" class="form-control border-0" placeholder="Your email address"
+              style="background-color: #515b60;">
+            <button type="button" class="btn" style="background-color: #515b60;">
+              <i class="bi bi-send"></i>
+            </button>
+      </div>
+    </footer>
+  </div>
+  </div>
+    <!-- javascript  -->
+    <script src="script.js"></script>
+</body>
+</html>
